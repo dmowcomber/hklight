@@ -1,0 +1,6 @@
+version: '2'
+services:
+  hklight:
+    build: .
+    network_mode: "host"
+    restart: always
